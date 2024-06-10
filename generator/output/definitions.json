@@ -5451,7 +5451,7 @@
   ],
   "ImPlot_DragLineX": [
     {
-      "args": "(int id,double* x,const ImVec4 col,float thickness,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* held)",
+      "args": "(int id,double* x,const ImVec4 col,float thickness,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* out_held)",
       "argsT": [
         {
           "name": "id",
@@ -5482,16 +5482,16 @@
           "type": "bool*"
         },
         {
-          "name": "held",
+          "name": "out_held",
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(int id,double* x,const ImVec4& col,float thickness=1,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* held=nullptr)",
-      "call_args": "(id,x,col,thickness,flags,out_clicked,out_hovered,held)",
+      "argsoriginal": "(int id,double* x,const ImVec4& col,float thickness=1,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* out_held=nullptr)",
+      "call_args": "(id,x,col,thickness,flags,out_clicked,out_hovered,out_held)",
       "cimguiname": "ImPlot_DragLineX",
       "defaults": {
         "flags": "0",
-        "held": "nullptr",
+        "out_held": "nullptr",
         "out_clicked": "nullptr",
         "out_hovered": "nullptr",
         "thickness": "1"
@@ -5507,7 +5507,7 @@
   ],
   "ImPlot_DragLineY": [
     {
-      "args": "(int id,double* y,const ImVec4 col,float thickness,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* held)",
+      "args": "(int id,double* y,const ImVec4 col,float thickness,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* out_held)",
       "argsT": [
         {
           "name": "id",
@@ -5538,16 +5538,16 @@
           "type": "bool*"
         },
         {
-          "name": "held",
+          "name": "out_held",
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(int id,double* y,const ImVec4& col,float thickness=1,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* held=nullptr)",
-      "call_args": "(id,y,col,thickness,flags,out_clicked,out_hovered,held)",
+      "argsoriginal": "(int id,double* y,const ImVec4& col,float thickness=1,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* out_held=nullptr)",
+      "call_args": "(id,y,col,thickness,flags,out_clicked,out_hovered,out_held)",
       "cimguiname": "ImPlot_DragLineY",
       "defaults": {
         "flags": "0",
-        "held": "nullptr",
+        "out_held": "nullptr",
         "out_clicked": "nullptr",
         "out_hovered": "nullptr",
         "thickness": "1"
@@ -5563,7 +5563,7 @@
   ],
   "ImPlot_DragPoint": [
     {
-      "args": "(int id,double* x,double* y,const ImVec4 col,float size,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* held)",
+      "args": "(int id,double* x,double* y,const ImVec4 col,float size,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* out_held)",
       "argsT": [
         {
           "name": "id",
@@ -5598,16 +5598,16 @@
           "type": "bool*"
         },
         {
-          "name": "held",
+          "name": "out_held",
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(int id,double* x,double* y,const ImVec4& col,float size=4,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* held=nullptr)",
-      "call_args": "(id,x,y,col,size,flags,out_clicked,out_hovered,held)",
+      "argsoriginal": "(int id,double* x,double* y,const ImVec4& col,float size=4,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* out_held=nullptr)",
+      "call_args": "(id,x,y,col,size,flags,out_clicked,out_hovered,out_held)",
       "cimguiname": "ImPlot_DragPoint",
       "defaults": {
         "flags": "0",
-        "held": "nullptr",
+        "out_held": "nullptr",
         "out_clicked": "nullptr",
         "out_hovered": "nullptr",
         "size": "4"
@@ -5623,7 +5623,7 @@
   ],
   "ImPlot_DragRect": [
     {
-      "args": "(int id,double* x1,double* y1,double* x2,double* y2,const ImVec4 col,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* held)",
+      "args": "(int id,double* x1,double* y1,double* x2,double* y2,const ImVec4 col,ImPlotDragToolFlags flags,bool* out_clicked,bool* out_hovered,bool* out_held)",
       "argsT": [
         {
           "name": "id",
@@ -5662,16 +5662,16 @@
           "type": "bool*"
         },
         {
-          "name": "held",
+          "name": "out_held",
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(int id,double* x1,double* y1,double* x2,double* y2,const ImVec4& col,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* held=nullptr)",
-      "call_args": "(id,x1,y1,x2,y2,col,flags,out_clicked,out_hovered,held)",
+      "argsoriginal": "(int id,double* x1,double* y1,double* x2,double* y2,const ImVec4& col,ImPlotDragToolFlags flags=0,bool* out_clicked=nullptr,bool* out_hovered=nullptr,bool* out_held=nullptr)",
+      "call_args": "(id,x1,y1,x2,y2,col,flags,out_clicked,out_hovered,out_held)",
       "cimguiname": "ImPlot_DragRect",
       "defaults": {
         "flags": "0",
-        "held": "nullptr",
+        "out_held": "nullptr",
         "out_clicked": "nullptr",
         "out_hovered": "nullptr"
       },
