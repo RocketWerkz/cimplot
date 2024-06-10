@@ -1,3 +1,3 @@
 [submodule "implot"]
 	path = implot
-	url = ssh://git@git.jetbrains.space/rocketwerkz/ent/implot.git
+	url = git@github.com:RocketWerkz/implot.git
